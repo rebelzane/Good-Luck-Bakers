@@ -31,17 +31,29 @@
       background: linear-gradient(135deg, #5c3317, #b45309);
       color: #ffffff;
       text-align: center;
-      padding: 32px 20px 26px;
+      padding: 28px 20px 24px;
     }
     .badge {
       display: inline-block;
       background: rgba(255, 255, 255, 0.18);
       padding: 4px 14px;
       border-radius: 999px;
-      font-size: 12.5px;
+      font-size: 12px;
       font-weight: 600;
       letter-spacing: 0.5px;
-      margin-bottom: 10px;
+      margin-bottom: 14px;
+    }
+    .profile-pic {
+      width: 104px;
+      height: 104px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 3.5px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      display: block;
+      margin: 0 auto 12px;
+      background: #45240e;
     }
     .header h1 {
       font-size: 26px;
@@ -157,18 +169,19 @@
   <div class="card">
     <div class="header">
       <div class="badge">BAKERY &amp; SWEETS</div>
+      <img class="profile-pic" src="IMG-20261122-WA0004~2.jpg" alt="Good Luck Bakers" />
       <h1>Good Luck Bakers</h1>
       <p>Freshly Baked &amp; Always Welcome</p>
     </div>
 
     <div class="quick-actions">
-      <a href="tel:+918381830545"><span>📞</span>Call</a>
-      <a href="https://wa.me/918381830545" target="_blank"><span>💬</span>WhatsApp</a>
+      <a href="tel:+919335554535"><span>📞</span>Call</a>
+      <a href="https://wa.me/919335554535" target="_blank"><span>💬</span>WhatsApp</a>
       <a href="https://maps.app.goo.gl/eWzCVB8YeA79BLiD7?g_st=ac" target="_blank"><span>📍</span>Location</a>
     </div>
 
     <div class="cta-wrap">
-      <a class="whatsapp-btn" href="https://wa.me/918381830545" target="_blank">
+      <a class="whatsapp-btn" href="https://wa.me/919335554535" target="_blank">
         Chat / Order on WhatsApp
       </a>
     </div>
@@ -179,8 +192,8 @@
         <div class="info">
           <h3>Mobile &amp; WhatsApp</h3>
           <p>
-            <a class="phone-link" href="tel:+918381830545">+91 8381830545</a><br />
-            <a class="phone-link" href="tel:+919335554535">+91 9335554535</a>
+            <a class="phone-link" href="tel:+919335554535">+91 9335554535</a><br />
+            <a class="phone-link" href="tel:+918381830545">+91 8381830545</a>
           </p>
         </div>
       </div>
@@ -226,8 +239,8 @@
         "N:Bakers;Good Luck;;;",
         "FN:Good Luck Bakers",
         "ORG:Good Luck Bakers",
-        "TEL;TYPE=CELL,VOICE:+918381830545",
         "TEL;TYPE=CELL,VOICE:+919335554535",
+        "TEL;TYPE=CELL,VOICE:+918381830545",
         "URL:https://maps.app.goo.gl/eWzCVB8YeA79BLiD7?g_st=ac",
         "END:VCARD"
       ].join("\n");
